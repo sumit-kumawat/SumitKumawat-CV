@@ -5,6 +5,7 @@ export interface Skill {
 
 export interface SkillCategory {
   title: string;
+  icon: React.FC<{ className?: string }>;
   skills: Skill[];
 }
 
